@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Hashim Al Masaabi 👋
+<img src="https://www.gitskins.com/api/section/hero?username=Hashim0011&theme=studio&style=aura" alt="Hashim Al Masaabi" width="100%" />
 
 ### Software Engineer & Business Analyst · Riyadh, Saudi Arabia
 
@@ -21,6 +21,10 @@ I work between the idea and the code — I listen, get the requirement straight,
 - 🎓 **B.Sc. Software Engineering**, Prince Sattam Bin Abdulaziz University — GPA **4.90 / 5.00**
 - 🏆 **1st Place**, Intellectual Empowerment Hackathon (2026) — *Fateen*, an AI chatbot for misinformation detection
 - ⚙️ I automate the busywork in between with **n8n** workflows
+
+<div align="center">
+<img src="https://www.gitskins.com/api/section/system-scan?username=Hashim0011&theme=studio&style=aura" alt="Profile scan" width="100%" />
+</div>
 
 ## Tech Stack
 
@@ -49,6 +53,10 @@ I work between the idea and the code — I listen, get the requirement straight,
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
+<div align="center">
+<img src="https://www.gitskins.com/api/section/stack?username=Hashim0011&theme=studio&style=aura" alt="Language stack" width="100%" />
+</div>
+
 ## Featured Projects
 
 | Project | Description | Stack |
@@ -66,6 +74,12 @@ I work between the idea and the code — I listen, get the requirement straight,
 - **QA & Testing** — manual and automated testing before release
 - **Process Automation** — n8n workflows that remove manual work
 - **UI/UX Design** — wireframes and prototypes in Figma & Framer
+
+## Contribution Activity
+
+<div align="center">
+<img src="https://www.gitskins.com/api/section/heatmap?username=Hashim0011&theme=studio&style=aura" alt="Contribution activity" width="100%" />
+</div>
 
 ---
 
