@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./header.svg" width="100%" alt="Hashim Al Masaabi" />
+
 <img src="./contrib-heatmap.svg" width="100%" alt="Contribution graph" />
 
 <table>
@@ -15,17 +17,26 @@
 
 Software engineer and business analyst who starts from the problem, not the code. I sit with stakeholders, turn what they picture into clear requirements, then build, test, and ship software people just use without anyone explaining it. Currently at **Sanal AI**, delivering frontend features for web and merchant apps, and freelancing for **Jzaa Agency**, where I own their website from requirements to maintenance. I automate the busywork in between with **n8n**.
 
+### Journey
+
+<img src="./journey.svg" width="100%" alt="Career timeline" />
+
 ### Featured Projects
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| [Faten Platform](https://github.com/Hashim0011/faten-platform) | Intellectual security awareness platform with role-based dashboards, weekly discussions, a content library and an AI assistant (graduation project, full CI/CD) | React, TypeScript, Supabase, Vitest, Playwright |
-| [DashyAI](https://github.com/Hashim0011/dashy-ai) | AI analytics dashboard: Google Sheets sync via n8n, live KPIs, smart charts, what-if forecasting and an AI analyst chat | React, TypeScript, Recharts, n8n |
-| [Personal Website](https://github.com/Hashim0011/personal-website) | Bilingual (EN/AR) portfolio with RTL, light/dark themes and accessible motion | React, Vite, Tailwind CSS, Framer Motion |
-| [FoodieFlow](https://github.com/Hashim0011/foodie-flow) | Recipe manager with favourites, custom recipes and AI-generated recipe details | React, React Router, Gemini |
-| [Paradise Nursery](https://github.com/Hashim0011/paradise-nursery) | Houseplant storefront with a Redux-powered cart | React, Redux Toolkit |
+<table>
+<tr>
+<td width="50%"><a href="https://github.com/Hashim0011/faten-platform"><img src="./cards/faten-platform.svg" width="100%" alt="faten-platform" /></a></td>
+<td width="50%"><a href="https://github.com/Hashim0011/dashy-ai"><img src="./cards/dashy-ai.svg" width="100%" alt="dashy-ai" /></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/Hashim0011/personal-website"><img src="./cards/personal-website.svg" width="100%" alt="personal-website" /></a></td>
+<td width="50%"><a href="https://github.com/Hashim0011/foodie-flow"><img src="./cards/foodie-flow.svg" width="100%" alt="foodie-flow" /></a></td>
+</tr>
+</table>
 
 ### Tech Stack
+
+<div align="center">
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
@@ -42,8 +53,14 @@ Software engineer and business analyst who starts from the problem, not the code
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
-### Contact
+</div>
+
+<div align="center">
+
+<img src="./footer.svg" width="100%" alt="Thanks for stopping by" />
 
 [![Website](https://img.shields.io/badge/Website-hashim--almasaabi.netlify.app-E5484D?style=flat-square&logo=googlechrome&logoColor=white)](https://hashim-almasaabi.netlify.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hashim--almasaabi-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hashim-almasaabi-b51ba4353/)
 [![Email](https://img.shields.io/badge/Email-hashimabdullatef@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:hashimabdullatef@gmail.com)
+
+</div>

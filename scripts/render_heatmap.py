@@ -70,7 +70,12 @@ for x, week in enumerate(weeks):
     for d in week["contributionDays"]:
         y = TOP + d["weekday"] * STEP
         tip = f'{d["contributionCount"]} on {d["date"]}'
-        grid.append(f'<rect x="{LEFT + x * STEP}" y="{y}" width="{CELL}" height="{CELL}" rx="3" fill="{LEVELS[level(d["contributionCount"])]}"><title>{tip}</title></rect>')
+        # Cells sweep in left to right, like the graph is being drawn.
+        begin = 1.4 + x * 0.022 + d["weekday"] * 0.012
+        grid.append(
+            f'<rect x="{LEFT + x * STEP}" y="{y}" width="{CELL}" height="{CELL}" rx="3" fill="{LEVELS[level(d["contributionCount"])]}" opacity="0">'
+            f'<animate attributeName="opacity" from="0" to="1" begin="{begin:.2f}s" dur=".35s" fill="freeze"/><title>{tip}</title></rect>'
+        )
 
 for i, name in ((1, "Mon"), (3, "Wed"), (5, "Fri")):
     grid.append(f'<text x="{LEFT - 14}" y="{TOP + i * STEP + 11}" font-size="12" text-anchor="end" fill="{MUTED}">{name}</text>')
@@ -87,8 +92,7 @@ for i, color in enumerate(LEVELS):
     grid.append(f'<rect x="{lx + i * 16}" y="{base - 11}" width="12" height="12" rx="3" fill="{color}"/>')
 grid.append(f'<text x="{lx + 5 * 16 + 6}" y="{base}" font-size="12" fill="{MUTED}">more</text>')
 
-parts.append(f"""  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.8s" fill="freeze"/>
+parts.append(f"""  <g>
     {chr(10).join('    ' + g for g in grid)}
   </g>""")
 
