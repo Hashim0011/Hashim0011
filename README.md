@@ -25,7 +25,7 @@ Software engineer and business analyst who starts from the problem, not the code
 
 <table>
 <tr>
-<td width="50%"><a href="https://github.com/Hashim0011/faten-platform"><img src="./cards/faten-platform.svg" width="100%" alt="faten-platform" /></a><p align="center"><a href="https://github.com/Hashim0011/faten-platform">Source code</a></p></td>
+<td width="50%"><a href="https://github.com/Hashim0011/faten-platform"><img src="./cards/faten-platform.svg" width="100%" alt="faten-platform" /></a><p align="center"><a href="https://bucolic-stroopwafel-3bcb42.netlify.app/"><b>Live demo</b></a> · <a href="https://github.com/Hashim0011/faten-platform">Source code</a></p></td>
 <td width="50%"><a href="https://github.com/Hashim0011/dashy-ai"><img src="./cards/dashy-ai.svg" width="100%" alt="dashy-ai" /></a><p align="center"><a href="https://hashim0011.github.io/dashy-ai/"><b>Live demo</b></a> · <a href="https://github.com/Hashim0011/dashy-ai">Source code</a></p></td>
 </tr>
 <tr>
