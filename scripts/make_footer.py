@@ -21,7 +21,7 @@ for i, (prompt, text, color) in enumerate(LINES):
     typed = bool(prompt)
     dur = 0.03 * len(text) if typed else 0.01
     rows.append(f'  <clipPath id="l{i}"><rect x="28" y="{y - 20}" height="28" width="0"><animate attributeName="width" to="{width:.0f}" begin="{t:.2f}s" dur="{dur:.2f}s" fill="freeze"/></rect></clipPath>')
-    rows.append(f'  <text x="32" y="{y}" font-size="16" clip-path="url(#l{i})"><tspan fill="{ACCENT}">{prompt}</tspan><tspan fill="{color}" x="{52 if prompt else 32}">{text}</tspan></text>')
+    rows.append(f'  <text x="32" y="{y}" font-size="16" clip-path="url(#l{i})"><tspan fill="{ACCENT}">{prompt}</tspan><tspan fill="{color}" x="{52 if prompt else 32}" textLength="{9.6 * len(text):.1f}" lengthAdjust="spacingAndGlyphs">{text}</tspan></text>')
     t += dur + (0.5 if typed else 0.35)
 y = 72 + len(LINES) * 28
 rows.append(f'  <text x="32" y="{y}" font-size="16" fill="{ACCENT}" opacity="0">$<animate attributeName="opacity" to="1" begin="{t:.2f}s" dur=".01s" fill="freeze"/></text>')

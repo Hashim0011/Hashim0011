@@ -11,7 +11,7 @@
   </rect></clipPath>
   <g clip-path="url(#typing)" font-size="16">
     <text x="32" y="75" fill="#e5484d">$</text>
-    <text x="52" y="75" fill="#e6edf3">./contributions.sh --last-year</text>
+    <text x="52" y="75" fill="#e6edf3" textLength="288.0" lengthAdjust="spacingAndGlyphs">./contributions.sh --last-year</text>
   </g>
   <rect x="344.0" y="61" width="9" height="18" fill="#e5484d">
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5;0.5;0.99;1" dur="1s" begin="1.4s" repeatCount="indefinite"/>

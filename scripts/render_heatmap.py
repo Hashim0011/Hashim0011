@@ -53,7 +53,7 @@ parts.append(f"""  <clipPath id="typing"><rect x="30" y="56" height="26" width="
   </rect></clipPath>
   <g clip-path="url(#typing)" font-size="16">
     <text x="32" y="75" fill="{ACCENT}">$</text>
-    <text x="52" y="75" fill="{TEXT}">{cmd}</text>
+    <text x="52" y="75" fill="{TEXT}" textLength="{9.6 * len(cmd):.1f}" lengthAdjust="spacingAndGlyphs">{cmd}</text>
   </g>
   <rect x="{52 + 9.6 * len(cmd) + 4}" y="61" width="9" height="18" fill="{ACCENT}">
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5;0.5;0.99;1" dur="1s" begin="1.4s" repeatCount="indefinite"/>

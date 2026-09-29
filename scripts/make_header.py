@@ -63,7 +63,7 @@ for i, role in enumerate(ROLES):
     roles.append(f"""  <clipPath id="r{i}"><rect x="{role_x}" y="{ry - 22}" height="30" width="0">
     <animate attributeName="width" dur="{period}s" begin="1.3s" repeatCount="indefinite" keyTimes="{';'.join(f'{k:.4f}' for k in kt)}" values="{';'.join(f'{val[k]:.0f}' for k in kt)}"/>
   </rect></clipPath>
-  <text x="{role_x}" y="{ry}" font-size="21" fill="{TEXT}" clip-path="url(#r{i})">{role}</text>""")
+  <text x="{role_x}" y="{ry}" font-size="21" fill="{TEXT}" clip-path="url(#r{i})" textLength="{char_w * len(role):.1f}" lengthAdjust="spacingAndGlyphs">{role}</text>""")
 
 # One cursor that tracks the end of whichever role is being typed.
 points = [(0.0, 0.0)]
