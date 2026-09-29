@@ -7,7 +7,7 @@ from html import escape
 
 from PIL import Image
 
-from theme import ACCENT, BORDER, FONT, MUTED, TEXT, TITLEBAR, WINDOW
+from theme import ACCENT, ACCENT_LIGHT, BORDER, FONT, MUTED, TEXT, TITLEBAR, WINDOW
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "cards"
@@ -64,7 +64,7 @@ for slug, name, desc, stack, lang, lang_color, badge in PROJECTS:
     for s in stack:
         cw = 8 * len(s) + 20
         chips.append(f'<rect x="{cx}" y="{H - 44}" width="{cw}" height="24" rx="12" fill="{ACCENT}" fill-opacity=".12" stroke="{ACCENT}" stroke-opacity=".45"/>'
-                     f'<text x="{cx + cw / 2}" y="{H - 27.5}" font-size="12" text-anchor="middle" fill="#ff8a8e">{escape(s)}</text>')
+                     f'<text x="{cx + cw / 2}" y="{H - 27.5}" font-size="12" text-anchor="middle" fill="{ACCENT_LIGHT}">{escape(s)}</text>')
         cx += cw + 8
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{FONT}">
   <defs>

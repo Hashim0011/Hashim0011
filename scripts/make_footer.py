@@ -2,7 +2,7 @@
 
 import pathlib
 
-from theme import ACCENT, MUTED, TEXT, window
+from theme import ACCENT, ACCENT_LIGHT, MUTED, TEXT, window
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -10,7 +10,7 @@ LINES = [
     ("$", "echo \"thanks for stopping by\"", TEXT),
     ("", "thanks for stopping by", MUTED),
     ("$", "open https://hashim-almasaabi.netlify.app", TEXT),
-    ("", "let's build something people just use.", "#ff8a8e"),
+    ("", "let's build something people just use.", ACCENT_LIGHT),
 ]
 W, H = 1000, 196
 rows = []

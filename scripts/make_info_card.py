@@ -59,7 +59,7 @@ for group in GROUPS:
     y += GAP
 
 y += 14
-palette = LEVELS[1:] + ["#f0883e", "#e3b341", "#3fb950", "#e6edf3"]
+palette = LEVELS[1:] + ["#5ee3ad", "#58a6ff", "#e3b341", "#e6edf3"]
 for n, color in enumerate(palette):
     rows.append(f'  <rect x="{KEY_X + n * 30}" y="{y}" width="26" height="12" rx="2" fill="{color}"/>')
 

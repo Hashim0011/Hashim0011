@@ -25,12 +25,12 @@ Software engineer and business analyst who starts from the problem, not the code
 
 <table>
 <tr>
-<td width="50%"><a href="https://github.com/Hashim0011/faten-platform"><img src="./cards/faten-platform.svg" width="100%" alt="faten-platform" /></a></td>
-<td width="50%"><a href="https://github.com/Hashim0011/dashy-ai"><img src="./cards/dashy-ai.svg" width="100%" alt="dashy-ai" /></a></td>
+<td width="50%"><a href="https://github.com/Hashim0011/faten-platform"><img src="./cards/faten-platform.svg" width="100%" alt="faten-platform" /></a><p align="center"><a href="https://github.com/Hashim0011/faten-platform">Source code</a></p></td>
+<td width="50%"><a href="https://github.com/Hashim0011/dashy-ai"><img src="./cards/dashy-ai.svg" width="100%" alt="dashy-ai" /></a><p align="center"><a href="https://hashim0011.github.io/dashy-ai/"><b>Live demo</b></a> · <a href="https://github.com/Hashim0011/dashy-ai">Source code</a></p></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/Hashim0011/personal-website"><img src="./cards/personal-website.svg" width="100%" alt="personal-website" /></a></td>
-<td width="50%"><a href="https://github.com/Hashim0011/foodie-flow"><img src="./cards/foodie-flow.svg" width="100%" alt="foodie-flow" /></a></td>
+<td width="50%"><a href="https://github.com/Hashim0011/personal-website"><img src="./cards/personal-website.svg" width="100%" alt="personal-website" /></a><p align="center"><a href="https://hashim-almasaabi.netlify.app"><b>Live demo</b></a> · <a href="https://github.com/Hashim0011/personal-website">Source code</a></p></td>
+<td width="50%"><a href="https://github.com/Hashim0011/foodie-flow"><img src="./cards/foodie-flow.svg" width="100%" alt="foodie-flow" /></a><p align="center"><a href="https://hashim0011.github.io/foodie-flow/"><b>Live demo</b></a> · <a href="https://github.com/Hashim0011/foodie-flow">Source code</a></p></td>
 </tr>
 </table>
 
@@ -59,7 +59,7 @@ Software engineer and business analyst who starts from the problem, not the code
 
 <img src="./footer.svg" width="100%" alt="Thanks for stopping by" />
 
-[![Website](https://img.shields.io/badge/Website-hashim--almasaabi.netlify.app-E5484D?style=flat-square&logo=googlechrome&logoColor=white)](https://hashim-almasaabi.netlify.app)
+[![Website](https://img.shields.io/badge/Website-hashim--almasaabi.netlify.app-0FBB7E?style=flat-square&logo=googlechrome&logoColor=white)](https://hashim-almasaabi.netlify.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hashim--almasaabi-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hashim-almasaabi-b51ba4353/)
 [![Email](https://img.shields.io/badge/Email-hashimabdullatef@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:hashimabdullatef@gmail.com)
 

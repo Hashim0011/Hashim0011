@@ -2,7 +2,7 @@
 
 import pathlib
 
-from theme import ACCENT, BORDER, FONT, MUTED, TEXT, TITLEBAR, WINDOW
+from theme import ACCENT, ACCENT_DARK, ACCENT_DEEP, ACCENT_LIGHT, BORDER, FONT, MUTED, TEXT, TITLEBAR, WINDOW
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -78,9 +78,9 @@ cursor_x = ";".join(f"{role_x + w + 3:.0f}" for _, w in points)
 svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{FONT}">
   <defs>
     <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#ff6b6b"/>
+      <stop offset="0" stop-color="{ACCENT_LIGHT}"/>
       <stop offset=".55" stop-color="{ACCENT}"/>
-      <stop offset="1" stop-color="#9b1c28"/>
+      <stop offset="1" stop-color="{ACCENT_DARK}"/>
     </linearGradient>
     <radialGradient id="glow" cx=".5" cy=".42" r=".6">
       <stop offset="0" stop-color="{ACCENT}" stop-opacity=".16"/>
@@ -98,7 +98,7 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
     <line x1="0" y1="40" x2="{W}" y2="40" stroke="{BORDER}"/>
     <circle cx="22" cy="20" r="6" fill="#ff5f57"/><circle cx="42" cy="20" r="6" fill="#febc2e"/><circle cx="62" cy="20" r="6" fill="#28c840"/>
     <text x="{W / 2}" y="25" text-anchor="middle" font-size="13" fill="{MUTED}">hashim@riyadh: ~/welcome</text>
-    <g stroke="#6e1a22" stroke-width="1.6" stroke-linecap="round" opacity=".9">{''.join(shadow)}</g>
+    <g stroke="{ACCENT_DEEP}" stroke-width="1.6" stroke-linecap="round" opacity=".9">{''.join(shadow)}</g>
     {''.join(blocks)}
     <text x="{W / 2}" y="{oy + 6 * CH + 22}" text-anchor="middle" font-size="14" letter-spacing="9" fill="{MUTED}" opacity="0">AL MASAABI<animate attributeName="opacity" from="0" to="1" begin="1.1s" dur=".6s" fill="freeze"/></text>
     <text x="{role_x - 26}" y="{ry}" font-size="21" fill="{ACCENT}">&gt;</text>

@@ -1,16 +1,24 @@
-"""Shared palette and window chrome for the profile SVGs."""
+"""Shared palette and window chrome for the profile SVGs.
+
+Colours follow the dark theme of hashim-almasaabi.netlify.app.
+"""
 
 BG = "#0d1117"
-WINDOW = "#11151c"
-TITLEBAR = "#161b22"
-BORDER = "#262c36"
+WINDOW = "#101216"
+TITLEBAR = "#15181e"
+BORDER = "#262b34"
 TEXT = "#e6edf3"
 MUTED = "#7d8590"
-ACCENT = "#e5484d"
+ACCENT = "#0fbb7e"
+ACCENT_LIGHT = "#5ee3ad"
+ACCENT_DARK = "#09734d"
+ACCENT_DEEP = "#0a4a34"
+LINK = "#58a6ff"
+GOLD = "#e3b341"
 FONT = "'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
 
 # Empty day, then four intensity steps.
-LEVELS = ["#1b2029", "#4a1a20", "#7c1f29", "#b3242f", "#ef4b53"]
+LEVELS = ["#1a1d24", "#0b3d2c", "#0a6547", "#0d9768", "#1fd898"]
 
 
 def window(width, height, title, body, radius=12):
