@@ -10,10 +10,10 @@
   <text x="32" y="72" font-size="16" clip-path="url(#l0)"><tspan fill="#0fbb7e">$</tspan><tspan fill="#e6edf3" x="52" textLength="278.4" lengthAdjust="spacingAndGlyphs">echo "thanks for stopping by"</tspan></text>
   <clipPath id="l1"><rect x="28" y="80" height="28" width="0"><animate attributeName="width" to="240" begin="1.67s" dur="0.01s" fill="freeze"/></rect></clipPath>
   <text x="32" y="100" font-size="16" clip-path="url(#l1)"><tspan fill="#0fbb7e"></tspan><tspan fill="#7d8590" x="32" textLength="211.2" lengthAdjust="spacingAndGlyphs">thanks for stopping by</tspan></text>
-  <clipPath id="l2"><rect x="28" y="108" height="28" width="0"><animate attributeName="width" to="422" begin="2.03s" dur="1.23s" fill="freeze"/></rect></clipPath>
-  <text x="32" y="128" font-size="16" clip-path="url(#l2)"><tspan fill="#0fbb7e">$</tspan><tspan fill="#e6edf3" x="52" textLength="393.6" lengthAdjust="spacingAndGlyphs">open https://hashim-almasaabi.netlify.app</tspan></text>
-  <clipPath id="l3"><rect x="28" y="136" height="28" width="0"><animate attributeName="width" to="394" begin="3.76s" dur="0.01s" fill="freeze"/></rect></clipPath>
+  <clipPath id="l2"><rect x="28" y="108" height="28" width="0"><animate attributeName="width" to="346" begin="2.03s" dur="0.99s" fill="freeze"/></rect></clipPath>
+  <text x="32" y="128" font-size="16" clip-path="url(#l2)"><tspan fill="#0fbb7e">$</tspan><tspan fill="#e6edf3" x="52" textLength="316.8" lengthAdjust="spacingAndGlyphs">open https://hashim0011.github.io</tspan></text>
+  <clipPath id="l3"><rect x="28" y="136" height="28" width="0"><animate attributeName="width" to="394" begin="3.52s" dur="0.01s" fill="freeze"/></rect></clipPath>
   <text x="32" y="156" font-size="16" clip-path="url(#l3)"><tspan fill="#0fbb7e"></tspan><tspan fill="#5ee3ad" x="32" textLength="364.8" lengthAdjust="spacingAndGlyphs">let's build something people just use.</tspan></text>
-  <text x="32" y="184" font-size="16" fill="#0fbb7e" opacity="0">$<animate attributeName="opacity" to="1" begin="4.12s" dur=".01s" fill="freeze"/></text>
-  <rect x="52" y="169" width="10" height="19" fill="#0fbb7e" opacity="0"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" begin="4.12s" repeatCount="indefinite"/></rect>
+  <text x="32" y="184" font-size="16" fill="#0fbb7e" opacity="0">$<animate attributeName="opacity" to="1" begin="3.88s" dur=".01s" fill="freeze"/></text>
+  <rect x="52" y="169" width="10" height="19" fill="#0fbb7e" opacity="0"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" begin="3.88s" repeatCount="indefinite"/></rect>
 </svg>

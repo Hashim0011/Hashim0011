@@ -32,7 +32,7 @@ GROUPS = [
         ("awards", "1st Place, Intellectual Empowerment Hackathon"),
     ],
     [
-        ("site", "hashim-almasaabi.netlify.app"),
+        ("site", "hashim0011.github.io"),
         ("linkedin", "in/hashim-almasaabi-b51ba4353"),
     ],
 ]
