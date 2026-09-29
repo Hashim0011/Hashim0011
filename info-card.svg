@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="548" viewBox="0 0 540 548" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace">
+  <rect x="0.5" y="0.5" width="539" height="547" rx="12" fill="#11151c" stroke="#262c36"/>
+  <path d="M12 0.5 H528 A11.5 11.5 0 0 1 539.5 12 V40 H0.5 V12 A11.5 11.5 0 0 1 12 0.5 Z" fill="#161b22"/>
+  <line x1="0.5" y1="40" x2="539.5" y2="40" stroke="#262c36"/>
+  <circle cx="22" cy="20" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="20" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="20" r="6" fill="#28c840"/>
+  <text x="270.0" y="25" text-anchor="middle" font-size="13" fill="#7d8590">whoami</text>
+  <text x="30" y="76" font-size="14" font-weight="700" fill="#e5484d">hashim@github</text>
+  <line x1="30" y1="88" x2="147" y2="88" stroke="#e5484d" stroke-opacity=".5"/>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.30s" dur="0.4s" fill="freeze"/><text x="30" y="123" font-size="13" fill="#e5484d">name</text><text x="136" y="123" font-size="13" fill="#e6edf3">Hashim Al Masaabi</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.37s" dur="0.4s" fill="freeze"/><text x="30" y="144" font-size="13" fill="#e5484d">role</text><text x="136" y="144" font-size="13" fill="#e6edf3">Software Engineer @ Sanal AI</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.44s" dur="0.4s" fill="freeze"/><text x="30" y="165" font-size="13" fill="#e5484d">freelance</text><text x="136" y="165" font-size="13" fill="#e6edf3">Frontend Developer @ Jzaa Agency</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.51s" dur="0.4s" fill="freeze"/><text x="30" y="186" font-size="13" fill="#e5484d">degree</text><text x="136" y="186" font-size="13" fill="#e6edf3">B.Sc. Software Engineering, PSAU 2026</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.58s" dur="0.4s" fill="freeze"/><text x="30" y="207" font-size="13" fill="#e5484d">gpa</text><text x="136" y="207" font-size="13" fill="#e6edf3">4.90 / 5.00</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.65s" dur="0.4s" fill="freeze"/><text x="30" y="240" font-size="13" fill="#e5484d">lifecycle</text><text x="136" y="240" font-size="13" fill="#e6edf3">requirements &gt; analysis &gt; build &gt; test &gt; ship</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.72s" dur="0.4s" fill="freeze"/><text x="30" y="261" font-size="13" fill="#e5484d">analysis</text><text x="136" y="261" font-size="13" fill="#e6edf3">user stories, acceptance criteria, specs</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.79s" dur="0.4s" fill="freeze"/><text x="30" y="282" font-size="13" fill="#e5484d">quality</text><text x="136" y="282" font-size="13" fill="#e6edf3">manual &amp; automated testing, Vitest, Playwright</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.86s" dur="0.4s" fill="freeze"/><text x="30" y="303" font-size="13" fill="#e5484d">automation</text><text x="136" y="303" font-size="13" fill="#e6edf3">n8n workflows, Google Sheets sync</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.93s" dur="0.4s" fill="freeze"/><text x="30" y="336" font-size="13" fill="#e5484d">web</text><text x="136" y="336" font-size="13" fill="#e6edf3">React, Next.js, TypeScript, Tailwind CSS</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.00s" dur="0.4s" fill="freeze"/><text x="30" y="357" font-size="13" fill="#e5484d">backend</text><text x="136" y="357" font-size="13" fill="#e6edf3">Node.js, Supabase, PostgreSQL, REST APIs</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.07s" dur="0.4s" fill="freeze"/><text x="30" y="378" font-size="13" fill="#e5484d">design</text><text x="136" y="378" font-size="13" fill="#e6edf3">Figma, Framer, UI/UX prototyping</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.14s" dur="0.4s" fill="freeze"/><text x="30" y="399" font-size="13" fill="#e5484d">tools</text><text x="136" y="399" font-size="13" fill="#e6edf3">Git, GitHub Actions, Jira, VS Code</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.21s" dur="0.4s" fill="freeze"/><text x="30" y="432" font-size="13" fill="#e5484d">awards</text><text x="136" y="432" font-size="13" fill="#e6edf3">1st Place, Intellectual Empowerment Hackathon</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.28s" dur="0.4s" fill="freeze"/><text x="30" y="465" font-size="13" fill="#e5484d">site</text><text x="136" y="465" font-size="13" fill="#e6edf3">hashim-almasaabi.netlify.app</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.35s" dur="0.4s" fill="freeze"/><text x="30" y="486" font-size="13" fill="#e5484d">linkedin</text><text x="136" y="486" font-size="13" fill="#e6edf3">in/hashim-almasaabi-b51ba4353</text></g>
+  <rect x="30" y="512" width="26" height="12" rx="2" fill="#4a1a20"/>
+  <rect x="60" y="512" width="26" height="12" rx="2" fill="#7c1f29"/>
+  <rect x="90" y="512" width="26" height="12" rx="2" fill="#b3242f"/>
+  <rect x="120" y="512" width="26" height="12" rx="2" fill="#ef4b53"/>
+  <rect x="150" y="512" width="26" height="12" rx="2" fill="#f0883e"/>
+  <rect x="180" y="512" width="26" height="12" rx="2" fill="#e3b341"/>
+  <rect x="210" y="512" width="26" height="12" rx="2" fill="#3fb950"/>
+  <rect x="240" y="512" width="26" height="12" rx="2" fill="#e6edf3"/>
+</svg>
