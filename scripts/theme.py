@@ -1,6 +1,6 @@
 """Shared palette and window chrome for the profile SVGs.
 
-Colours follow the dark theme of hashim-almasaabi.netlify.app.
+Colours follow the dark theme of hashim0011.github.io.
 """
 
 BG = "#0d1117"
